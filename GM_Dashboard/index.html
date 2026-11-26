@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Écran du MJ — D&D 5e</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="dashboard">
+    <!-- COLONNE GAUCHE : TRACKER D'INITIATIVE (40 %) -->
+    <section class="panel panel-tracker">
+      <header class="panel-header">
+        <div>
+          <h2>Initiative</h2>
+          <span class="round-badge">Round <strong id="round-counter">1</strong></span>
+        </div>
+        <div class="header-actions">
+          <button id="btn-next-turn" class="btn btn-primary">Tour suivant ▶</button>
+          <button id="btn-reset-combat" class="btn btn-danger" title="Vider le combat">Réinitialiser</button>
+        </div>
+      </header>
+
+      <form id="add-combatant-form" class="add-form">
+        <input type="text" id="comb-name" placeholder="Nom (ex. : Aragorn)" required>
+        <input type="number" id="comb-init" placeholder="Init" required>
+        <input type="number" id="comb-hp" placeholder="PV max" min="1" required>
+        <input type="number" id="comb-ac" placeholder="CA" min="1" value="10" required>
+        <select id="comb-type">
+          <option value="pc">PJ</option>
+          <option value="monster">Monstre</option>
+        </select>
+        <button type="submit" class="btn btn-secondary">+</button>
+      </form>
+
+      <div id="combatant-list" class="scroll-area combatant-list"></div>
+    </section>
+
+    <!-- COLONNE CENTRALE : COMPENDIUM D&D 5e (35 %) -->
+    <section class="panel panel-compendium">
+      <header class="panel-header">
+        <h2>Compendium</h2>
+        <div class="tabs">
+          <button class="tab-btn active" data-tab="monsters">Monstres</button>
+          <button class="tab-btn" data-tab="rules">Règles & Données</button>
+        </div>
+      </header>
+
+      <div class="search-bar">
+        <input type="search" id="compendium-search" placeholder="Rechercher…">
+        <select id="compendium-category" class="hidden">
+          <option value="all">Toutes catégories</option>
+        </select>
+      </div>
+
+      <div class="compendium-body">
+        <ul id="compendium-results" class="scroll-area results-list"></ul>
+        <article id="compendium-detail" class="scroll-area detail-card">
+          <p class="placeholder-text">Sélectionne un élément dans la liste pour afficher sa fiche.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COLONNE DROITE : RÉGIE YOUTUBE (25 %) -->
+    <section class="panel panel-youtube">
+      <header class="panel-header">
+        <h2>Ambiance</h2>
+      </header>
+
+      <div class="youtube-wrapper">
+        <div id="yt-player"></div>
+      </div>
+
+      <form id="add-preset-form" class="preset-form">
+        <input type="text" id="preset-label" placeholder="Nom (ex. : Taverne)" required>
+        <input type="text" id="preset-url" placeholder="Lien ou ID YouTube" required>
+        <button type="submit" class="btn btn-secondary">Ajouter</button>
+      </form>
+
+      <div id="youtube-presets" class="scroll-area presets-grid"></div>
+    </section>
+  </main>
+
+  <!-- Données locales : ajoute ici tous tes fichiers data/*.js -->
+  <script src="data/5e_SRD_Monsters.js"></script>
+  <script src="data/5e_SRD_Weapon_Mastery_Properties.js"></script>
+  <script src="data/5e_SRD_Conditions.js"></script>
+  <script src="data/rules-2024.js"></script>
+
+  <!-- Modules applicatifs -->
+  <script src="js/tracker.js"></script>
+  <script src="js/compendium.js"></script>
+  <script src="js/youtube.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
