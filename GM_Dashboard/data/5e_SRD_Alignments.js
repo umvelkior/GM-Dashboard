@@ -1,4 +1,4 @@
-[
+window.Alignments=[
   {
     "index": "lawful-good",
     "name": "Lawful Good",
@@ -69,4 +69,4 @@
     "description": "Most creatures that lack the capacity for rational thought don't have alignments; they are unaligned. Sharks are savage predators, for example, but they aren't evil; they are unaligned.",
     "url": "/api/2024/GM-Dashboard/alignments/unaligned"
   }
-]
+];

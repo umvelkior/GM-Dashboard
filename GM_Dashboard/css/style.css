@@ -29,7 +29,7 @@
   /* Grille 3 colonnes : 40 % / 35 % / 25 % */
   .dashboard {
     display: grid;
-    grid-template-columns: 40fr 35fr 25fr;
+    grid-template-columns: 40fr 40fr 20fr;
     gap: 10px;
     height: 100vh;
     padding: 10px;
@@ -330,20 +330,80 @@
     margin-top: 20px;
   }
   
-  /* --- COLONNE DROITE : YOUTUBE --- */
-  .youtube-wrapper {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    background: #000;
-    border-radius: 6px;
-    overflow: hidden;
-  }
-  
-  .youtube-wrapper iframe {
-    width: 100%;
-    height: 100%;
-  }
+  /* --- COLONNE DROITE : YOUTUBE AUDIO --- */
+.youtube-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+/* Masquage visuel sans couper le flux audio */
+.youtube-wrapper.video-hidden {
+  height: 0;
+  aspect-ratio: auto;
+  opacity: 0;
+  pointer-events: none;
+  margin: -5px 0;
+}
+
+.youtube-wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.audio-deck {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.now-playing {
+  font-size: 0.82rem;
+  color: var(--accent-gold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.audio-controls {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 5px;
+}
+
+.audio-controls .active {
+  border-color: var(--accent-gold);
+  color: var(--accent-gold);
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.volume-control input[type="range"] {
+  flex: 1;
+  padding: 0;
+  accent-color: var(--accent-gold);
+  cursor: pointer;
+}
+
+.volume-control span:last-child {
+  min-width: 34px;
+  text-align: right;
+}
   
   .preset-form {
     display: flex;

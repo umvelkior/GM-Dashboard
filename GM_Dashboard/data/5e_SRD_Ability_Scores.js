@@ -1,4 +1,4 @@
-[
+window.Ability_Scores=[
   {
     "index": "str",
     "name": "STR",
@@ -142,4 +142,4 @@
     ],
     "url": "/api/2024/GM-Dashboard/ability-scores/cha"
   }
-]
+];

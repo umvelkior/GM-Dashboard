@@ -1,4 +1,4 @@
-[
+window.Traits=[
   {
     "index": "adrenaline-rush",
     "url": "/api/2024/GM-Dashboard/traits/adrenaline-rush",
@@ -1589,4 +1589,4 @@
       }
     ]
   }
-]
+];

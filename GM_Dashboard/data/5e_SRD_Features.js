@@ -1,4 +1,4 @@
-[
+window.Features=[
   {
     "index": "barbarian-rage",
     "url": "/api/2024/GM-Dashboard/features/barbarian-rage",
@@ -4001,4 +4001,4 @@
     },
     "description": "You can increase the power of your spells. When you cast a Wizard spell with a spell slot of levels 1–5 that deals damage, you can deal maximum damage with that spell on the turn you cast it.\nThe first time you do so, you suffer no adverse effect.\nIf you use this feature again before you finish a Long Rest, you take 2d12 Necrotic damage for each level of the spell slot immediately after you cast it.\nThis damage ignores Resistance and Immunity.\nEach time you use this feature again before finishing a Long Rest, the Necrotic damage per spell level increases by 1d12."
   }
-]
+];

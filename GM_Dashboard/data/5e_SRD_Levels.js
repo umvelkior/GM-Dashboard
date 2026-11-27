@@ -1,4 +1,4 @@
-[
+window.Levels=[
   {
     "index": "barbarian-1",
     "name": "Barbarian 1",
@@ -8657,4 +8657,4 @@
     },
     "url": "/api/2024/GM-Dashboard/subclasses/evoker/levels/14"
   }
-]
+];

@@ -1,4 +1,4 @@
-[
+window.Equipment_Categories=[
   {
     "index": "adventuring-gear",
     "name": "Adventuring Gear",
@@ -3024,4 +3024,4 @@
     ],
     "url": "/api/2024/GM-Dashboard/equipment-categories/wondrous-items"
   }
-]
+];

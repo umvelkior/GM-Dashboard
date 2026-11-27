@@ -1,0 +1,10 @@
+node_modules/
+.git/
+*.md
+scripts/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+start.sh
+stop.sh

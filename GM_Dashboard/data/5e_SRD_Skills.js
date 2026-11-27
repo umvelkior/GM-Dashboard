@@ -1,4 +1,4 @@
-[
+window.Skills=[
   {
     "index": "acrobatics",
     "name": "Acrobatics",
@@ -197,4 +197,4 @@
     },
     "url": "/api/2024/GM-Dashboard/skills/survival"
   }
-]
+];

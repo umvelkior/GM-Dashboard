@@ -1,4 +1,4 @@
-[
+window.Subspecies=[
   {
     "index": "draconic-ancestor-black",
     "url": "/api/2024/GM-Dashboard/subspecies/draconic-ancestor-black",
@@ -649,4 +649,4 @@
       "url": "/api/2024/species/tiefling"
     }
   }
-]
+];

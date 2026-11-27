@@ -1,4 +1,4 @@
-[
+window.Proficiencies=[
   {
     "index": "light-armor",
     "type": "Armor",
@@ -1435,4 +1435,4 @@
       "url": "/api/2024/equipment/herbalism-kit"
     }
   }
-]
+];

@@ -1,4 +1,4 @@
-[
+window.Conditions=[
   {
     "index": "blinded",
     "name": "Blinded",
@@ -89,4 +89,4 @@
     "description": "While you have the Unconscious condition, you experience the following effects.\n**Inert.** You have the Incapacitated and Prone conditions, and you drop whatever you're holding.\n**When this condition ends, you remain Prone.\n**Speed 0.** Your Speed is 0 and can't increase.\n**Attacks Affected.** Attack rolls against you have Advantage.\n**Saving Throws Affected.** You automatically fail Strength and Dexterity saving throws.\n**Automatic Critical Hits.** Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.\n**Unaware.** You're unaware of your surroundings.",
     "url": "/api/2024/GM-Dashboard/conditions/unconscious"
   }
-]
+];

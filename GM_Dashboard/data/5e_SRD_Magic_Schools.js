@@ -1,4 +1,4 @@
-[
+window.Magic_Schools=[
   {
     "index": "abjuration",
     "name": "Abjuration",
@@ -47,4 +47,4 @@
     "description": "Transforms creatures or objects",
     "url": "/api/2024/GM-Dashboard/magic-schools/transmutation"
   }
-]
+];

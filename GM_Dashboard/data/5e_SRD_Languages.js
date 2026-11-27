@@ -1,4 +1,4 @@
-[
+window.Languages=[
   {
     "index": "common",
     "name": "Common",
@@ -132,4 +132,4 @@
     "note": "",
     "url": "/api/2024/GM-Dashboard/languages/undercommon"
   }
-]
+];

@@ -1,9 +1,9 @@
-[
+window.Classes=[
   {
     "index": "barbarian",
     "name": "Barbarian",
     "primary_ability": {
-      "desc": "Strength",
+      "desc": "Force",
       "ability_scores": [
         {
           "index": "str",
@@ -214,7 +214,7 @@
     "index": "bard",
     "name": "Bard",
     "primary_ability": {
-      "desc": "Charisma",
+      "desc": "Charisme",
       "ability_scores": [
         {
           "index": "cha",
@@ -888,7 +888,7 @@
     "index": "cleric",
     "name": "Cleric",
     "primary_ability": {
-      "desc": "Wisdom",
+      "desc": "Sagesse",
       "ability_scores": [
         {
           "index": "wis",
@@ -1160,7 +1160,7 @@
     "index": "druid",
     "name": "Druid",
     "primary_ability": {
-      "desc": "Wisdom",
+      "desc": "Sagesse",
       "ability_scores": [
         {
           "index": "wis",
@@ -3051,7 +3051,7 @@
     "index": "rogue",
     "name": "Rogue",
     "primary_ability": {
-      "desc": "Dexterity",
+      "desc": "Dextérité",
       "ability_scores": [
         {
           "index": "dex",
@@ -3466,7 +3466,7 @@
     "index": "sorcerer",
     "name": "Sorcerer",
     "primary_ability": {
-      "desc": "Charisma",
+      "desc": "Charisme",
       "ability_scores": [
         {
           "index": "cha",
@@ -3705,7 +3705,7 @@
     "index": "warlock",
     "name": "Warlock",
     "primary_ability": {
-      "desc": "Charisma",
+      "desc": "Charisme",
       "ability_scores": [
         {
           "index": "cha",
@@ -4226,4 +4226,4 @@
     "spells": "/api/2024/classes/wizard/spells",
     "url": "/api/2024/GM-Dashboard/classes/wizard"
   }
-]
+];

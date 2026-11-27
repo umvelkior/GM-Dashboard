@@ -1,4 +1,4 @@
-[
+window.Equipment = [
   {
     "index": "acid",
     "name": "Acid",
@@ -1313,7 +1313,7 @@
     ],
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "weight": 2,
@@ -3379,7 +3379,7 @@
     ],
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "throw_range": {
@@ -3833,7 +3833,7 @@
     },
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "url": "/api/2024/GM-Dashboard/equipment/light-crossbow"
@@ -3986,7 +3986,7 @@
     },
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "url": "/api/2024/GM-Dashboard/equipment/longbow"
@@ -4501,7 +4501,7 @@
     },
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "url": "/api/2024/GM-Dashboard/equipment/musket"
@@ -6196,7 +6196,7 @@
     ],
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "url": "/api/2024/GM-Dashboard/equipment/sling"
@@ -7466,7 +7466,7 @@
     ],
     "mastery": {
       "index": "slow",
-      "name": "Slow",
+      "name": "Lent",
       "url": "/api/2024/weapon-mastery-properties/slow"
     },
     "url": "/api/2024/GM-Dashboard/equipment/whip"

@@ -65,15 +65,33 @@
     <section class="panel panel-youtube">
       <header class="panel-header">
         <h2>Ambiance</h2>
+        <button id="btn-toggle-video" class="btn btn-sm" title="Afficher ou masquer la vidéo">👁 Vidéo</button>
       </header>
 
-      <div class="youtube-wrapper">
+      <!-- Cadre vidéo masqué visuellement mais actif en arrière-plan -->
+      <div id="youtube-wrapper" class="youtube-wrapper video-hidden">
         <div id="yt-player"></div>
+      </div>
+
+      <!-- Platine de contrôle audio -->
+      <div class="audio-deck">
+        <div id="yt-now-playing" class="now-playing">Prêt — clique sur une ambiance</div>
+        <div class="audio-controls">
+          <button id="btn-yt-prev" class="btn btn-sm" title="Piste précédente">⏮</button>
+          <button id="btn-yt-play" class="btn btn-primary btn-sm" title="Lecture / Pause">▶ Lecture</button>
+          <button id="btn-yt-next" class="btn btn-sm" title="Piste suivante">⏭</button>
+          <button id="btn-yt-loop" class="btn btn-sm active" title="Lecture en boucle">🔁</button>
+        </div>
+        <div class="volume-control">
+          <span>🔊</span>
+          <input type="range" id="yt-volume" min="0" max="100" value="70">
+          <span id="yt-volume-val">70 %</span>
+        </div>
       </div>
 
       <form id="add-preset-form" class="preset-form">
         <input type="text" id="preset-label" placeholder="Nom (ex. : Taverne)" required>
-        <input type="text" id="preset-url" placeholder="Lien ou ID YouTube" required>
+        <input type="text" id="preset-url" placeholder="Lien ou ID YouTube / Music" required>
         <button type="submit" class="btn btn-secondary">Ajouter</button>
       </form>
 

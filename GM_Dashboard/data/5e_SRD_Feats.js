@@ -1,4 +1,4 @@
-[
+window.Feats=[
   {
     "index": "alert",
     "name": "Alert",
@@ -189,4 +189,4 @@
     "description": "You gain the following benefits.\n**Ability Score Increase.** Increase one ability score of your choice by 1, to a maximum of 30.\n**Truesight.** You have Truesight with a range of 60 feet.",
     "url": "/api/2024/GM-Dashboard/feats/boon-of-truesight"
   }
-]
+];

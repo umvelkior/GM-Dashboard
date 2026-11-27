@@ -1,4 +1,4 @@
-[
+window.Backgrounds=[
   {
     "index": "acolyte",
     "name": "Acolyte",
@@ -529,4 +529,4 @@
     ],
     "url": "/api/2024/GM-Dashboard/backgrounds/soldier"
   }
-]
+];

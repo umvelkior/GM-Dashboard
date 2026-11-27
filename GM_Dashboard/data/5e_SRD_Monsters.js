@@ -1,4 +1,4 @@
-[
+window.Monsters=[
   {
     "name": "Aboleth",
     "size": "Large",
@@ -400,7 +400,7 @@
   },
   {
     "name": "Animated Armor",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "construct",
     "alignment": "unaligned",
     "armor_class": [
@@ -1188,7 +1188,7 @@
   },
   {
     "name": "Azer Sentinel",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "elemental",
     "alignment": "lawful neutral",
     "armor_class": [
@@ -1742,7 +1742,7 @@
   },
   {
     "name": "Barbed Devil",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -1968,7 +1968,7 @@
   },
   {
     "name": "Basilisk",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "unaligned",
     "armor_class": [
@@ -2054,7 +2054,7 @@
   },
   {
     "name": "Bearded Devil",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -2448,7 +2448,7 @@
   },
   {
     "name": "Black Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -3441,7 +3441,7 @@
   },
   {
     "name": "Blink Dog",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "lawful good",
     "armor_class": [
@@ -3527,7 +3527,7 @@
   },
   {
     "name": "Blue Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "lawful evil",
     "armor_class": [
@@ -4509,7 +4509,7 @@
   },
   {
     "name": "Brass Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "chaotic good",
     "armor_class": [
@@ -5478,7 +5478,7 @@
   },
   {
     "name": "Bronze Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "lawful good",
     "armor_class": [
@@ -6483,7 +6483,7 @@
   },
   {
     "name": "Bugbear Stalker",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -6643,7 +6643,7 @@
   },
   {
     "name": "Bugbear Warrior",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -7019,7 +7019,7 @@
   },
   {
     "name": "Chain Devil",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -8186,7 +8186,7 @@
   },
   {
     "name": "Copper Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "chaotic good",
     "armor_class": [
@@ -9135,7 +9135,7 @@
   },
   {
     "name": "Couatl",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "celestial",
     "alignment": "lawful good",
     "armor_class": [
@@ -9387,7 +9387,7 @@
   },
   {
     "name": "Swarm of Crawling Claws",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "swarm of tiny undead",
     "alignment": "neutral evil",
     "armor_class": [
@@ -9893,7 +9893,7 @@
   },
   {
     "name": "Death Dog",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral evil",
     "armor_class": [
@@ -10020,7 +10020,7 @@
   },
   {
     "name": "Deva",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "celestial",
     "alignment": "lawful good",
     "armor_class": [
@@ -10543,7 +10543,7 @@
   },
   {
     "name": "Doppelganger",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral",
     "armor_class": [
@@ -11341,7 +11341,7 @@
   },
   {
     "name": "Dryad",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "neutral",
     "armor_class": [
@@ -11923,7 +11923,7 @@
   },
   {
     "name": "Erinyes",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -12101,7 +12101,7 @@
   },
   {
     "name": "Ettercap",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral evil",
     "armor_class": [
@@ -12712,7 +12712,7 @@
   },
   {
     "name": "Flesh Golem",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "construct",
     "alignment": "neutral",
     "armor_class": [
@@ -13023,7 +13023,7 @@
   },
   {
     "name": "Shrieker Fungus",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "plant",
     "alignment": "unaligned",
     "armor_class": [
@@ -13092,7 +13092,7 @@
   },
   {
     "name": "Violet Fungus",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "plant",
     "alignment": "unaligned",
     "armor_class": [
@@ -13183,7 +13183,7 @@
   },
   {
     "name": "Gargoyle",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "elemental",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -13445,7 +13445,7 @@
   },
   {
     "name": "Ghast",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -13578,7 +13578,7 @@
   },
   {
     "name": "Ghost",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "neutral",
     "armor_class": [
@@ -13788,7 +13788,7 @@
   },
   {
     "name": "Ghoul",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -13908,7 +13908,7 @@
   },
   {
     "name": "Gibbering Mouther",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "aberration",
     "alignment": "chaotic neutral",
     "armor_class": [
@@ -14468,7 +14468,7 @@
   },
   {
     "name": "Gnoll Warrior",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -14892,7 +14892,7 @@
   },
   {
     "name": "Gold Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "lawful good",
     "armor_class": [
@@ -15996,7 +15996,7 @@
   },
   {
     "name": "Gray Ooze",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "ooze",
     "alignment": "unaligned",
     "armor_class": [
@@ -16118,7 +16118,7 @@
   },
   {
     "name": "Green Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "lawful evil",
     "armor_class": [
@@ -17006,7 +17006,7 @@
   },
   {
     "name": "Green Hag",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "neutral evil",
     "armor_class": [
@@ -17256,7 +17256,7 @@
   },
   {
     "name": "Grick",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "aberration",
     "alignment": "unaligned",
     "armor_class": [
@@ -17454,7 +17454,7 @@
   },
   {
     "name": "Grimlock",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "aberration",
     "alignment": "neutral evil",
     "armor_class": [
@@ -18041,7 +18041,7 @@
   },
   {
     "name": "Half-Dragon",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "neutral",
     "armor_class": [
@@ -18184,7 +18184,7 @@
   },
   {
     "name": "Harpy",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -18255,7 +18255,7 @@
   },
   {
     "name": "Hell Hound",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -18712,7 +18712,7 @@
   },
   {
     "name": "Hobgoblin Warrior",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "lawful evil",
     "armor_class": [
@@ -18811,7 +18811,7 @@
   },
   {
     "name": "Hobgoblin Captain",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "lawful evil",
     "armor_class": [
@@ -19705,7 +19705,7 @@
   },
   {
     "name": "Incubus",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "neutral evil",
     "armor_class": [
@@ -21028,7 +21028,7 @@
   },
   {
     "name": "Lemure",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -21112,7 +21112,7 @@
   },
   {
     "name": "Lich",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "neutral evil",
     "armor_class": [
@@ -22593,7 +22593,7 @@
   },
   {
     "name": "Medusa",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "lawful evil",
     "armor_class": [
@@ -23403,7 +23403,7 @@
   },
   {
     "name": "Merfolk Skirmisher",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "elemental",
     "alignment": "neutral",
     "armor_class": [
@@ -23601,7 +23601,7 @@
   },
   {
     "name": "Mimic",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral",
     "armor_class": [
@@ -24505,7 +24505,7 @@
   },
   {
     "name": "Night Hag",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "neutral evil",
     "armor_class": [
@@ -27507,7 +27507,7 @@
   },
   {
     "name": "Rakshasa",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -27763,7 +27763,7 @@
   },
   {
     "name": "Red Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -28951,7 +28951,7 @@
   },
   {
     "name": "Rust Monster",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "unaligned",
     "armor_class": [
@@ -29054,7 +29054,7 @@
   },
   {
     "name": "Sahuagin Warrior",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "lawful evil",
     "armor_class": [
@@ -29306,7 +29306,7 @@
   },
   {
     "name": "Satyr",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "chaotic neutral",
     "armor_class": [
@@ -29556,7 +29556,7 @@
   },
   {
     "name": "Sea Hag",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fey",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -29740,7 +29740,7 @@
   },
   {
     "name": "Shadow",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -30163,7 +30163,7 @@
   },
   {
     "name": "Silver Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "lawful good",
     "armor_class": [
@@ -31128,7 +31128,7 @@
   },
   {
     "name": "Skeleton",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "lawful evil",
     "armor_class": [
@@ -31719,7 +31719,7 @@
   },
   {
     "name": "Specter",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -33495,7 +33495,7 @@
     ],
     "bonus_actions": [
       {
-        "name": "Slow",
+        "name": "Lent",
         "desc": "The golem casts the Slow spell, requiring no spell components and using Constitution as the spellcasting ability (spell save DC 17).",
         "usage": {
           "type": "recharge on roll",
@@ -33513,7 +33513,7 @@
           "spells": [
             {
               "index": "slow",
-              "name": "Slow",
+              "name": "Lent",
               "level": 3,
               "url": "/api/2024/spells/slow"
             }
@@ -33793,7 +33793,7 @@
   },
   {
     "name": "Succubus",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "fiend",
     "alignment": "neutral evil",
     "armor_class": [
@@ -35300,7 +35300,7 @@
   },
   {
     "name": "Vampire, Vampire Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "lawful evil",
     "armor_class": [
@@ -35819,7 +35819,7 @@
   },
   {
     "name": "Vampire, Mist Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "lawful evil",
     "armor_class": [
@@ -36563,7 +36563,7 @@
   },
   {
     "name": "Werebear, Human Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral good",
     "armor_class": [
@@ -36960,7 +36960,7 @@
   },
   {
     "name": "Wereboar, Human Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral evil",
     "armor_class": [
@@ -37064,7 +37064,7 @@
   },
   {
     "name": "Wereboar, Hybrid Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral evil",
     "armor_class": [
@@ -37369,7 +37369,7 @@
   },
   {
     "name": "Wererat, Human Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "lawful evil",
     "armor_class": [
@@ -37504,7 +37504,7 @@
   },
   {
     "name": "Wererat, Hybrid Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "lawful evil",
     "armor_class": [
@@ -37813,7 +37813,7 @@
   },
   {
     "name": "Weretiger, Human Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "neutral",
     "armor_class": [
@@ -38262,7 +38262,7 @@
   },
   {
     "name": "Werewolf, Human Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -38572,7 +38572,7 @@
   },
   {
     "name": "Werewolf, Wolf Form",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "monstrosity",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -38721,7 +38721,7 @@
   },
   {
     "name": "White Dragon Wyrmling",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "dragon",
     "alignment": "chaotic evil",
     "armor_class": [
@@ -39453,7 +39453,7 @@
   },
   {
     "name": "Wight",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "neutral evil",
     "armor_class": [
@@ -40220,7 +40220,7 @@
   },
   {
     "name": "Xorn",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "elemental",
     "alignment": "neutral",
     "armor_class": [
@@ -40362,7 +40362,7 @@
   },
   {
     "name": "Zombie",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "undead",
     "alignment": "neutral evil",
     "armor_class": [
@@ -40707,7 +40707,7 @@
   },
   {
     "name": "Ape",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -41070,7 +41070,7 @@
   },
   {
     "name": "Black Bear",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -41231,7 +41231,7 @@
   },
   {
     "name": "Boar",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -41798,7 +41798,7 @@
   },
   {
     "name": "Deer",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -42512,7 +42512,7 @@
   },
   {
     "name": "Giant Badger",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -42887,7 +42887,7 @@
   },
   {
     "name": "Giant Crab",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -43330,7 +43330,7 @@
   },
   {
     "name": "Giant Frog",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -44466,7 +44466,7 @@
   },
   {
     "name": "Giant Venomous Snake",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -44617,7 +44617,7 @@
   },
   {
     "name": "Giant Wasp",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -44688,7 +44688,7 @@
   },
   {
     "name": "Giant Weasel",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -44772,7 +44772,7 @@
   },
   {
     "name": "Giant Wolf Spider",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -44862,7 +44862,7 @@
   },
   {
     "name": "Goat",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -45160,7 +45160,7 @@
   },
   {
     "name": "Hyena",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -45683,7 +45683,7 @@
   },
   {
     "name": "Mastiff",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -45758,7 +45758,7 @@
   },
   {
     "name": "Mule",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -45904,7 +45904,7 @@
   },
   {
     "name": "Panther",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -46210,7 +46210,7 @@
   },
   {
     "name": "Pony",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -46276,7 +46276,7 @@
   },
   {
     "name": "Pteranodon",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -46482,7 +46482,7 @@
   },
   {
     "name": "Reef Shark",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -47116,7 +47116,7 @@
   },
   {
     "name": "Swarm of Insects",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "swarm of tiny beasts",
     "alignment": "unaligned",
     "armor_class": [
@@ -47236,7 +47236,7 @@
   },
   {
     "name": "Swarm of Piranhas",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "swarm of tiny beasts",
     "alignment": "unaligned",
     "armor_class": [
@@ -47357,7 +47357,7 @@
   },
   {
     "name": "Swarm of Rats",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "swarm of tiny beasts",
     "alignment": "unaligned",
     "armor_class": [
@@ -47483,7 +47483,7 @@
   },
   {
     "name": "Swarm of Ravens",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "swarm of tiny beasts",
     "alignment": "unaligned",
     "armor_class": [
@@ -47626,7 +47626,7 @@
   },
   {
     "name": "Swarm of Venomous Snakes",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "swarm of tiny beasts",
     "alignment": "unaligned",
     "armor_class": [
@@ -48099,7 +48099,7 @@
   },
   {
     "name": "Vulture",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -48319,7 +48319,7 @@
   },
   {
     "name": "Wolf",
-    "size": "Medium",
+    "size": "Moyen",
     "type": "beast",
     "alignment": "unaligned",
     "armor_class": [
@@ -48397,4 +48397,4 @@
     "proficiency_bonus": 2,
     "xp": 50
   }
-]
+];

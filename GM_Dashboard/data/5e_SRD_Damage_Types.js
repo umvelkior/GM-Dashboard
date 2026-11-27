@@ -1,4 +1,4 @@
-[
+window.Damage_Types=[
   {
     "index": "acid",
     "name": "Acid",
@@ -77,4 +77,4 @@
     "description": "Concussive sound",
     "url": "/api/2024/GM-Dashboard/damage-types/thunder"
   }
-]
+];

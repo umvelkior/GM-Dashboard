@@ -1,4 +1,4 @@
-[
+window.Subclasses=[
   {
     "index": "path-of-the-berserker",
     "url": "/api/2024/GM-Dashboard/subclasses/path-of-the-berserker",
@@ -457,4 +457,4 @@
       }
     ]
   }
-]
+];

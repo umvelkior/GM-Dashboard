@@ -1,10 +1,10 @@
-[
+window.Species=[
   {
     "index": "dragonborn",
     "url": "/api/2024/GM-Dashboard/species/dragonborn",
     "name": "Dragonborn",
     "type": "Humanoid",
-    "size": "Medium",
+    "size": "Moyen",
     "speed": 30,
     "subspecies": [
       {
@@ -76,7 +76,7 @@
     "url": "/api/2024/GM-Dashboard/species/dwarf",
     "name": "Dwarf",
     "type": "Humanoid",
-    "size": "Medium",
+    "size": "Moyen",
     "speed": 30,
     "traits": [
       {
@@ -106,7 +106,7 @@
     "url": "/api/2024/GM-Dashboard/species/elf",
     "name": "Elf",
     "type": "Humanoid",
-    "size": "Medium",
+    "size": "Moyen",
     "speed": 30,
     "traits": [
       {
@@ -195,7 +195,7 @@
     "url": "/api/2024/GM-Dashboard/species/goliath",
     "name": "Goliath",
     "type": "Humanoid",
-    "size": "Medium",
+    "size": "Moyen",
     "speed": 35,
     "traits": [
       {
@@ -282,7 +282,7 @@
     "url": "/api/2024/GM-Dashboard/species/human",
     "name": "Human",
     "type": "Humanoid",
-    "size": "Medium",
+    "size": "Moyen",
     "speed": 30,
     "traits": [
       {
@@ -307,7 +307,7 @@
     "url": "/api/2024/GM-Dashboard/species/orc",
     "name": "Orc",
     "type": "Humanoid",
-    "size": "Medium",
+    "size": "Moyen",
     "speed": 30,
     "traits": [
       {
@@ -345,7 +345,7 @@
           },
           {
             "option_type": "size",
-            "size": "Medium"
+            "size": "Moyen"
           }
         ]
       }
@@ -386,4 +386,4 @@
       }
     ]
   }
-]
+];
